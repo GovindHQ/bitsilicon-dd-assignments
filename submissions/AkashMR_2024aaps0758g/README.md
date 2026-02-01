@@ -1,9 +1,8 @@
 # Digital Stopwatch Controller (Hardware-Software Co-Design)
 
 ## Author Information
-**Name:** [Your Name]  
-**ID:** [Your Student ID]  
-**Course:** Digital Design  
+**Name:** Akash M R
+**ID:** 2024aaps0758g 
 
 ## 1. Project Overview
 This project implements a **Digital Stopwatch Controller** using a hardware-software co-design approach. The core timekeeping logic and state machine are implemented in **Verilog RTL**, while the control and observation logic are handled by a **C++ software wrapper** using **Verilator**.
@@ -22,7 +21,7 @@ The project follows the required modular structure:
     * `main.cpp`: C++ testbench to drive the Verilated model.
     * `Makefile`: Build script for compiling and running the project.
     * `README.md`: Project documentation.
-* **tb/**: (Optional) Traditional Verilog testbenches.
+* **tb/**: Verilog testbench.
 
 ## 3. Tool Versions
 [cite_start]The following tools were used to build and verify this project[cite: 96]:
