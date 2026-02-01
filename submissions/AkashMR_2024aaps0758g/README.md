@@ -21,7 +21,8 @@ The project follows the required modular structure:
     * `main.cpp`: C++ testbench to drive the Verilated model.
     * `Makefile`: Build script for compiling and running the project.
     * `README.md`: Project documentation.
-* **tb/**: Verilog testbench.
+* **tb/**:
+    * `tb_stopwatch_top.v`: Verilog testbench.
 
 ## 3. Tool Versions
 [cite_start]The following tools were used to build and verify this project[cite: 96]:
