@@ -1,18 +1,18 @@
-module minutes_counter (
-    input  wire clk,
-    input  wire rst_n,        // active-low reset
-    input  wire enable,
-    output reg  [7:0] minutes
+module tally_controller (
+    input  wire sys_clk,
+    input  wire hw_rst_n,
+    input  wire inc_tick,
+    output reg  [7:0] count_val
 );
 
-always @(posedge clk) begin
-    if (!rst_n)
-        minutes <= 8'd0;
-    else if (enable) begin
-        if (minutes == 8'd99)
-            minutes <= 8'd0;
+always @(posedge sys_clk) begin
+    if (!hw_rst_n)
+        count_val <= 8'd0;
+    else if (inc_tick) begin
+        if (count_val == 8'd99)
+            count_val <= 8'd0;
         else
-            minutes <= minutes + 8'd1;
+            count_val <= count_val + 8'd1;
     end
 end
 
