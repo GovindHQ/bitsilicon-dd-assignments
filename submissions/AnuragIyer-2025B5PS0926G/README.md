@@ -1,4 +1,4 @@
-# JEREMY W D's Assignment
+# Anurag Iyer's Assignment submission
 
 # Part A
 Contains warmup questions regarding Boolean Algebra.
