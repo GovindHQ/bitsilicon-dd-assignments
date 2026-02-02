@@ -1,0 +1,30 @@
+module seconds_counter (
+	input wire	clk,
+	input wire	rst_n,
+	input wire	enable,
+	input wire	reset,
+	output reg [5:0]	seconds,
+	output reg 	tick
+);
+
+	always @(posedge clk or negedge rst_n) begin
+		if (!rst_n) begin
+			seconds <= 6'b0;
+			tick <= 1'b0;
+		end else if (reset) begin
+			seconds <= 6'b0;
+			tick <= 1'b0;
+		end else if (enable) begin
+			if (seconds == 6'b59) begin
+				seconds <= 6'b0;
+				tick <= 1'b1;
+			end else begin
+				seconds <= seconds + 1'b1;
+				tick <= 1'b0;
+			end
+		end else begin
+			tick <= 1'b0;
+		end
+	end
+
+endmodule
