@@ -1,0 +1,40 @@
+AND GATE
+module top_module( 
+    input a, 
+    input b, 
+    output out );
+// we create three wires in the start of the module
+assign out=a&b;
+// the wires are assigned i.e connected to each other. & is a symbol of bitwise and for verilog
+endmodule;
+
+OR GATE
+module top_module( 
+    input a, 
+    input b, 
+    output out );
+// we create three wires in the start of the module
+assign out=a|b;
+// | is a symbol of bitwise or
+
+endmodule;
+
+XOR GATE
+module top_module( 
+    input a, 
+    input b, 
+    output out );
+assign out=a^b;
+//^ is a symbol for XOR in verilog that is the output is one if the inputs differ
+
+endmodule;
+
+MAJORITY VOTER
+module top_module( 
+    input a, 
+    input b, 
+    output out );
+assign out=(a&b) | (b&c) | (c&a);
+
+endmodule;
+
