@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/BITS/SY/2-1/DD
+vcontrol_fsm
+!s110 1769967242
+!i10b 1
+!s100 1Y4ZE^^[?fL`V?^6;7ZXh3
+I8^KH4mzME:4^Ek9IM^MhF3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl
+w1769967240
+8D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/control_fsm.v
+FD:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/control_fsm.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1769967242.000000
+!s107 D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/control_fsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/control_fsm.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vminutes_counter
+!s110 1769970147
+!i10b 1
+!s100 U;Qm7jmASe6Ug0Ae^W5>P0
+IBTPfl75BlGHdiXz>;Z:`E3
+R0
+R1
+w1769970052
+8D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/minutes_counter.v
+FD:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/minutes_counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1769970147.000000
+!s107 D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/minutes_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/minutes_counter.v|
+!i113 1
+R3
+R4
+vseconds_counter
+!s110 1769970139
+!i10b 1
+!s100 aS[<1K41<UNg`H;O3Ei=i0
+IJUi8X?6jEBIDYSC<^3Dc:1
+R0
+R1
+w1769970137
+8D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/seconds_counter.v
+FD:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/seconds_counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1769970139.000000
+!s107 D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/seconds_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/seconds_counter.v|
+!i113 1
+R3
+R4
+vstopwatch_top
+!s110 1769968285
+!i10b 1
+!s100 AP58O=]fPP`a6zHfE8;2H1
+IdU[ijgSm2k:0K6oc]=bL60
+R0
+R1
+w1769953071
+8D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/stopwatch_top.v
+FD:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/stopwatch_top.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1769968285.000000
+!s107 D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/stopwatch_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/rtl/stopwatch_top.v|
+!i113 1
+R3
+R4
+vtb_stopwatch
+!s110 1769969295
+!i10b 1
+!s100 If>:LI2el=1F;[iFZbSC41
+I2JP_0h@R;382Nck@U7[XM0
+R0
+R1
+w1769969289
+8D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/tb/tb_stopwatch.v
+FD:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/tb/tb_stopwatch.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1769969295.000000
+!s107 D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/tb/tb_stopwatch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/BITS/Silicon/verilog/2024A8PS0699G_stopwatch/tb/tb_stopwatch.v|
+!i113 1
+R3
+R4
