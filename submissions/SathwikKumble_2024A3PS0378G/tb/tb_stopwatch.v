@@ -30,20 +30,24 @@ module tb_stopwatch();
         stop  = 0;
         reset = 0;
 
+	//releasing asynch reset
         #20 rst_n = 1;
 
+	//start -> stop after minute counter increment -> stop
         #20 start = 1;
         #10 start = 0; 
-	#50 stop = 1;
+	#620 stop = 1;
         #10 stop = 0;
 	#30 reset = 1;
         #10  reset = 0;
-
+	
+	//start -> reset
         #50 start = 1;
         #10 start = 0;
 	#50 reset = 1;
         #10 reset = 0;
 
+	//start -> asynch reset
 	#50 start = 1;
         #10 start = 0;
 	#50 rst_n = 0;
