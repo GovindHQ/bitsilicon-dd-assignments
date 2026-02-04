@@ -1,22 +1,13 @@
-# Stopwatch Digital Design Project
-**Student Name:** Sathwik Kumble
-**Student ID:** 2024A3PS0378G
+# BITSilicon – Digital Design Assignments
 
-## Project Description
-This is a Verilog implementation of a digital stopwatch. The design uses a hierarchical structure with a central Finite State Machine (FSM) to control the start, stop, and reset functionality, and separate counters for tracking time.
+This repository is used for assignment submissions.
 
-## Directory Structure
-* `rtl/`: Contains the Verilog source files.
-  * `stopwatch_top.v`: The top-level module connecting everything.
-  * `control_fsm.v`: Logic for Idle, Running, and Paused states.
-  * `seconds_counter.v`: 6-bit counter for 0-59 seconds.
-  * `minutes_counter.v`: 8-bit counter for minutes.
-* `main.cpp`: The C++ testbench for Verilator simulation.
-* `Makefile`: Automation script for compiling and running the simulation.
+## Submission Instructions
+1. Create a folder inside `submissions/` with your **full name-ID**.
+2. Inside your folder, add:
+   - `src/` → all Verilog files
+   - `docs/` → report / screenshots
+   - `README.md` → brief explanation of your approach
+3. Commit all files and push before the deadline.
 
-## How to Run
-I am using **Verilator** on Windows (UCRT64) to simulate the hardware.
-
-1. **To compile and run the simulation:**
-   ```bash
-   make
+⚠️ Do not modify or delete other folders.
